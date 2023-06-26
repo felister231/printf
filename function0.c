@@ -24,22 +24,3 @@ int _printf(const char *format, ...) /* the prototype */
 
 	return (i);
 }
-
-/**
- * main - entry point for the main
- * Return:Always 0 (success)
- *
- */
-
-int main(void)
-{
-	char *name = "Felister Malitu";
-	int age = 23;
-	char *level = "university";
-	double weight = 56.56;
-
-	_printf("My name is %s, I am %d years old\n", name, age);
-	_printf(" and I am currently in %s\n", level);
-	_printf("Oh, I weigh %.2f. That is some tiny details about me.\n", weight);
-	return (0);
-}
